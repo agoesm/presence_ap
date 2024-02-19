@@ -41,18 +41,6 @@ List<AllFeatureModel> allFeatureModel = [
     title: 'Leave',
   ),
   AllFeatureModel(
-    icon: FluentIcons.backpack_28_filled,
-    color: Colors.red,
-    bgColor: Colors.red.shade100,
-    title: 'Leave Balance',
-  ),
-  AllFeatureModel(
-    icon: FluentIcons.calendar_arrow_counterclockwise_28_filled,
-    color: Colors.red,
-    bgColor: Colors.red.shade100,
-    title: 'Leave Calendar',
-  ),
-  AllFeatureModel(
     icon: FluentIcons.weather_moon_24_filled,
     color: Colors.blue,
     bgColor: Colors.blue.shade100,

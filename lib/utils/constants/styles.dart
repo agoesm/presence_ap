@@ -46,14 +46,3 @@ final ButtonStyle outlineButtonStyle = OutlinedButton.styleFrom(
   ),
   textStyle: const TextStyle(fontWeight: FontWeight.bold),
 );
-
-final ButtonStyle transparentButtonStyle = OutlinedButton.styleFrom(
-  foregroundColor: kWhite,
-  backgroundColor: kWhite.withOpacity(0.25),
-  side: const BorderSide(color: kWhite, width: 1),
-  shape: const RoundedRectangleBorder(
-    borderRadius: BorderRadius.all(Radius.circular(10)),
-  ),
-  minimumSize: Size.zero,
-  padding: const EdgeInsets.all(7),
-);

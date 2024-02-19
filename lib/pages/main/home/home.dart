@@ -151,7 +151,7 @@ class _HomeState extends State<Home> {
                           ),
                           const SizedBox(height: 5),
                           Text(
-                            'Regular Office Hour : [ 08:00 - 17:00 ]',
+                            'Office Hour : [ 08:00 - 17:00 ]',
                             style: Theme.of(context).textTheme.bodyMedium,
                           ),
                           const SizedBox(height: 5),

@@ -29,6 +29,11 @@ List<ProfileMenuModel> profileMenuModel = <ProfileMenuModel>[
     trailing: 'id',
   ),
   ProfileMenuModel(
+    icon: Icons.info_outline,
+    title: 'App Info',
+    trailing: 'null',
+  ),
+  ProfileMenuModel(
     icon: Icons.exit_to_app_rounded,
     title: 'Logout',
     trailing: 'null',
